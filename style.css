@@ -103,58 +103,64 @@
      background: #cc5200;
  }
 
- .form{
-    display:flex;
-    justify-content: center;
-    flex-direction: row;
-    background-color: white;
-    height: 70px;
-     position: sticky ;
-      top:0;
-      z-index: 100;
-    /* text-align: center; */
-    /* align-items: center; */
-    
+ .form {
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     background-color: white;
+     height: 70px;
+     position: sticky;
+     top: 0;
+     z-index: 100;
+     /* text-align: center; */
+     /* align-items: center; */
+
  }
- .form input{
-    height: 25px;
-    font-size: large;
-    border-radius: 10px;
-    text-align: center;
-    padding: 5px;
-    margin-top: 10px;
+
+ .form input {
+     height: 25px;
+     font-size: large;
+     border-radius: 10px;
+     text-align: center;
+     padding: 5px;
+     margin-top: 10px;
  }
-  input:focus {
-      border-color: #007bff;
-      outline: none;
-    }
+
+ input:focus {
+     border-color: #007bff;
+     outline: none;
+ }
+
  .submit-btn {
-      background: #007bff;
-      color: white;
-      border: none;
-      padding: 12px 20px;
-      border-radius: 8px;
-      font-size: 16px;
-      cursor: pointer;
-      transition: background 0.3s ease;
-    }
-    .submit-btn:hover{
-        transform: scale(1.05);
-        transition: 0.3s ease;
-    }
-    .title{
-        display: flex;
-        justify-content: center;
-        }
-    .title h1 {
-        color:#007bff;
-        
-    }
+     background: #007bff;
+     color: white;
+     border: none;
+     padding: 12px 20px;
+     border-radius: 8px;
+     font-size: 16px;
+     cursor: pointer;
+     transition: background 0.3s ease;
+ }
+
+ .submit-btn:hover {
+     transform: scale(1.05);
+     transition: 0.3s ease;
+ }
+
+ .title {
+     display: flex;
+     justify-content: center;
+ }
+
+ .title h1 {
+     color: #007bff;
+
+ }
 
  @media only screen and (max-width: 600px) {
-  body {
-    .container{
-        display: none;
-    }
-  }
-}
+     body {
+         .container {
+             display: none;
+         }
+     }
+ }
